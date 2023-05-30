@@ -16,7 +16,7 @@ export async function POST(request: Request) {
     messages: [
       {
         role: 'system',
-        content: `when responding, welcome the user always as Ms.Oumayma and say welcome 
+        content: `when responding, welcome the user always as Hi There! and say welcome 
                     to the ReactForce Todo App! Limit the response to 200 characters`,
       },
       {
